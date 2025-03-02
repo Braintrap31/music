@@ -1,0 +1,62 @@
+{
+  "id": "braintrap-studio-music",
+  "title": "BS Музыка",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "manifest": "https://module.fvtt.club/s/BYQinifT9w5WaqM/download",
+  "download": "https://module.fvtt.club/s/ZiwAedke6jqgt3R/download",
+  "packs": [
+    {
+      "name": "bs-music",
+      "label": "BS Музыка",
+      "path": "packs/bs-music",
+	  "banner": "modules/braintrap-studio-music/assets/bannermusic.webp",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "description": "Музыкальный модуль для ваших игр!",
+  "authors": [
+    {
+      "name": "Braintrap Studio",
+      "email": "braintrapstudio@gmail.com",
+      "url": "https://boosty.to/braintrapstudio?isFromFeed=true",
+      "discord": "https://discord.gg/p5sxN4ffHX",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/braintrap-studio-music/assets/setup.webp",
+      "flags": {},
+      "loop": false
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Braintrap Studio",
+      "sorting": "m",
+      "color": "#E32636",
+      "folders": [
+        {
+          "name": "BS Музыка",
+          "sorting": "m",
+          "color": "##8B0000",
+          "packs": [
+            "bs-music"
+          ],
+          "folders": []
+        }
+      ],
+      "packs": []
+    }
+  ]
+}
